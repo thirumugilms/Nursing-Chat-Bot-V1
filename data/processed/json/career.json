@@ -1,0 +1,1731 @@
+{
+  "dataset_metadata": {
+    "title": "Comprehensive Nursing Career, Workplace & Specializations Knowledge Base",
+    "version": "2.1.0",
+    "description": "Production-ready, highly structured JSON dataset combining career opportunities by qualification, healthcare workplace categories, role-setting qualification mapping matrix, and 14 clinical nursing specializations for RAG chatbots.",
+    "total_specializations": 14,
+    "total_workplace_categories": 12,
+    "total_matrix_settings": 21
+  },
+  "career_roles_by_qualification": {
+    "ANM": {
+      "qualification_title": "Auxiliary Nurse Midwife (ANM)",
+      "description": "Primary healthcare and grassroots community health worker qualification focusing on maternal and child health, primary immunization, and rural outreach.",
+      "roles": [
+        "ANM / Auxiliary Nurse Midwife",
+        "Community Health Worker / Grassroots Health Roles",
+        "Maternal & Child Health (MCH) Worker",
+        "Immunization & Public Health Program Worker",
+        "Home Healthcare Assistant",
+        "Private Hospital / Clinic Support Nurse",
+        "Government Rural / Sub-Center ANM"
+      ]
+    },
+    "GNM": {
+      "qualification_title": "General Nursing and Midwifery (GNM)",
+      "description": "General diploma program qualifying registered nurses for general hospital ward care, basic emergency/ICU support, maternity care, and bedside patient management.",
+      "roles": [
+        "Staff Nurse / Registered Nurse (RN)",
+        "Ward Nurse",
+        "Emergency / Casualty Nurse",
+        "ICU / Critical Care Nurse",
+        "Operation Theatre (OT) Nurse",
+        "Obstetric / Maternity Nurse",
+        "Pediatric Nurse",
+        "Community Health Nurse",
+        "Government Staff Nurse",
+        "Home-Care Nurse",
+        "Clinical Research Assistant (with additional required clinical course)",
+        "Non-Clinical Healthcare Roles"
+      ]
+    },
+    "Post_Basic_BSc_Nursing": {
+      "qualification_title": "Post Basic B.Sc Nursing",
+      "description": "Degree upgrade for GNM diploma holders to bachelor level, opening doors for specialized clinical practice, administrative roles, and nursing education.",
+      "roles": [
+        "Staff Nurse / Registered Nurse",
+        "Specialized Clinical Nurse",
+        "Emergency & Trauma Nurse",
+        "ICU / Critical Care Nurse",
+        "Maternity & Women's Health Nurse",
+        "Pediatric / Neonatal Nurse",
+        "Community & Public Health Nurse",
+        "Government Nursing Officer",
+        "Nursing Educator / Tutor",
+        "Nursing Administration / Unit In-Charge",
+        "Clinical Research Associate",
+        "Non-Clinical Healthcare Roles"
+      ]
+    },
+    "BSc_Nursing": {
+      "qualification_title": "Bachelor of Science in Nursing (B.Sc Nursing)",
+      "description": "Four-year comprehensive undergraduate professional nursing degree qualifying graduates for advanced clinical care, nursing education, hospital administration, and global migration.",
+      "roles": [
+        "Nursing Officer / Staff Nurse",
+        "Medical-Surgical Nurse",
+        "Emergency / Trauma Nurse",
+        "ICU / Critical Care Nurse",
+        "Operation Theatre (OT) Nurse",
+        "Obstetric & Gynecological (OBG) Nurse",
+        "Pediatric / Neonatal Nurse",
+        "Psychiatric / Mental Health Nurse",
+        "Community Health Officer (CHO) / Public Health Nurse",
+        "Government Nursing Jobs (AIIMS, State PSC, RRB, ESIC)",
+        "Clinical Instructor / Nursing Tutor",
+        "Nursing Administration / Shift Supervisor",
+        "Clinical Research Associate (CRA)",
+        "Non-Clinical Healthcare Roles (Healthcare IT, Medical Coding, Insurance Claims)",
+        "International Registered Nurse (NCLEX-RN / NHS / OET / Prometric)"
+      ]
+    },
+    "MSc_Nursing": {
+      "qualification_title": "Master of Science in Nursing (M.Sc Nursing)",
+      "description": "Postgraduate advanced nursing degree developing clinical specialists, nursing educators, researchers, and executive healthcare administrators.",
+      "roles": [
+        "Advanced Clinical / Specialist Nurse",
+        "Critical Care / ICU Specialist Nurse",
+        "Emergency & Trauma Nursing Specialist",
+        "Assistant Professor / Nursing Lecturer / Faculty",
+        "Nursing Education Specialist / Curriculum Coordinator",
+        "Nursing Administration & Management (Nursing Superintendent / Deputy NS)",
+        "Nursing Researcher / Principal Investigator",
+        "Clinical Research Manager",
+        "Public Health Specialist / Program Coordinator",
+        "Government Nursing Officer / Senior Specialist",
+        "Non-Clinical Healthcare Executive",
+        "International Clinical Nurse Specialist / Nurse Practitioner Pathways"
+      ]
+    }
+  },
+  "workplace_categories": [
+    {
+      "category": "Hospitals",
+      "sub_types": [
+        "Government Hospitals (Tertiary & District)",
+        "Private Hospitals",
+        "Teaching / University Hospitals",
+        "Super-Specialty Hospitals",
+        "Corporate Hospital Chains"
+      ]
+    },
+    {
+      "category": "Primary & Community Healthcare",
+      "sub_types": [
+        "Primary Health Centres (PHC)",
+        "Community Health Centres (CHC)",
+        "Health & Wellness Centres (Ayushman Arogya Mandir)",
+        "Community Clinics",
+        "Public Health Programs & Mobile Medical Units"
+      ]
+    },
+    {
+      "category": "Specialized Healthcare Facilities",
+      "sub_types": [
+        "ICU / Critical Care Units",
+        "Emergency / Casualty Departments",
+        "Oncology Centers",
+        "Pediatric Hospitals & Clinics",
+        "Psychiatric & Mental Health Facilities",
+        "Neonatal Intensive Care Units (NICU)",
+        "Dialysis Centers",
+        "Rehabilitation Centers"
+      ]
+    },
+    {
+      "category": "Long-Term & Home Care",
+      "sub_types": [
+        "Nursing Homes",
+        "Geriatric Care Facilities",
+        "Hospice & Palliative Care Centers",
+        "Home Healthcare Agencies",
+        "Long-Term Assisted Living Facilities"
+      ]
+    },
+    {
+      "category": "Education & Academic Institutions",
+      "sub_types": [
+        "Nursing Colleges",
+        "Nursing Schools",
+        "Health Sciences Universities",
+        "Simulation & Clinical Skill Centers",
+        "Continuing Clinical Education Units"
+      ]
+    },
+    {
+      "category": "Research Organizations",
+      "sub_types": [
+        "Medical Research Institutions (e.g. ICMR)",
+        "Nursing Research Centers",
+        "Clinical Research Organizations (CROs)",
+        "University Research Departments",
+        "Public Health Policy & Research Bodies"
+      ]
+    },
+    {
+      "category": "Government & Public Health Services",
+      "sub_types": [
+        "Central Government Healthcare (AIIMS, ESIC, Railway)",
+        "State Government Health Services",
+        "District Health Administration",
+        "Municipal Public Health Departments",
+        "National Health Mission (NHM) Programs"
+      ]
+    },
+    {
+      "category": "Defence & Uniformed Services",
+      "sub_types": [
+        "Military Hospitals (Military Nursing Service - MNS)",
+        "Armed Forces Medical Services (AFMS)",
+        "Paramilitary Healthcare (CRPF, BSF, ITBP)",
+        "Police Hospital Services"
+      ]
+    },
+    {
+      "category": "Occupational & Corporate Healthcare",
+      "sub_types": [
+        "Corporate & IT Campus Health Centers",
+        "Industrial Plants & Manufacturing Health Units",
+        "Occupational Health & Safety Centers",
+        "Corporate Employee Wellness Programs"
+      ]
+    },
+    {
+      "category": "Schools & Educational Institutions",
+      "sub_types": [
+        "School Health Clinics",
+        "University Student Health Centers",
+        "Residential Campus Medical Centers"
+      ]
+    },
+    {
+      "category": "NGOs & Humanitarian Organizations",
+      "sub_types": [
+        "Non-Governmental Organizations (NGOs)",
+        "Community Health Outreach Programs",
+        "Humanitarian Relief Missions",
+        "Disaster & Emergency Rapid Response Teams"
+      ]
+    },
+    {
+      "category": "International Healthcare",
+      "sub_types": [
+        "International Hospitals (USA, UK, Canada, Australia, Gulf/GCC)",
+        "Global Long-Term Care & Nursing Homes",
+        "International Community Health Missions",
+        "Global Home Healthcare",
+        "International Health Agencies (WHO, UNICEF, IFRC)"
+      ]
+    }
+  ],
+  "workplace_qualification_matrix": [
+    {
+      "setting": "Government Hospital",
+      "ANM": [
+        "ANM",
+        "MCH Worker",
+        "Immunization Worker"
+      ],
+      "GNM": [
+        "Staff Nurse",
+        "Ward Nurse"
+      ],
+      "Post_Basic_BSc": [
+        "Staff Nurse",
+        "Nursing Officer"
+      ],
+      "BSc_Nursing": [
+        "Nursing Officer",
+        "Staff Nurse",
+        "Clinical Nurse"
+      ],
+      "MSc_Nursing": [
+        "Specialist Nurse",
+        "Clinical Educator"
+      ],
+      "BSc_with_Exp": [
+        "Nurse Supervisor",
+        "Nursing Manager"
+      ],
+      "MSc_with_Exp": [
+        "Nursing Superintendent",
+        "Senior Nursing Administrator"
+      ]
+    },
+    {
+      "setting": "Private Hospital",
+      "ANM": [
+        "ANM",
+        "Clinic Nurse",
+        "Patient Care Support"
+      ],
+      "GNM": [
+        "Staff Nurse",
+        "Ward Nurse"
+      ],
+      "Post_Basic_BSc": [
+        "Staff Nurse",
+        "Clinical Nurse"
+      ],
+      "BSc_Nursing": [
+        "Staff Nurse",
+        "Clinical Nurse"
+      ],
+      "MSc_Nursing": [
+        "Specialist Nurse",
+        "Clinical Educator"
+      ],
+      "BSc_with_Exp": [
+        "Nurse Supervisor",
+        "Unit Manager"
+      ],
+      "MSc_with_Exp": [
+        "Nursing Manager",
+        "Nursing Administrator"
+      ]
+    },
+    {
+      "setting": "Teaching Hospital",
+      "ANM": [
+        "ANM",
+        "Patient Care Support"
+      ],
+      "GNM": [
+        "Staff Nurse",
+        "Ward Nurse"
+      ],
+      "Post_Basic_BSc": [
+        "Staff Nurse",
+        "Clinical Nurse"
+      ],
+      "BSc_Nursing": [
+        "Staff Nurse",
+        "Clinical Instructor"
+      ],
+      "MSc_Nursing": [
+        "Nursing Faculty",
+        "Clinical Educator"
+      ],
+      "BSc_with_Exp": [
+        "Clinical Supervisor",
+        "Senior Clinical Educator"
+      ],
+      "MSc_with_Exp": [
+        "Academic Coordinator",
+        "Senior Faculty"
+      ]
+    },
+    {
+      "setting": "Corporate Hospital",
+      "ANM": [
+        "ANM",
+        "Patient Care Support"
+      ],
+      "GNM": [
+        "Staff Nurse",
+        "Ward Nurse"
+      ],
+      "Post_Basic_BSc": [
+        "Staff Nurse"
+      ],
+      "BSc_Nursing": [
+        "Staff Nurse",
+        "Clinical Nurse"
+      ],
+      "MSc_Nursing": [
+        "Specialist Nurse"
+      ],
+      "BSc_with_Exp": [
+        "Unit Supervisor",
+        "Nurse Manager"
+      ],
+      "MSc_with_Exp": [
+        "Nursing Manager",
+        "Clinical Coordinator"
+      ]
+    },
+    {
+      "setting": "Super-Specialty Hospital",
+      "ANM": [
+        "Patient Care Support"
+      ],
+      "GNM": [
+        "Specialty Ward Nurse",
+        "Staff Nurse"
+      ],
+      "Post_Basic_BSc": [
+        "Specialty Staff Nurse"
+      ],
+      "BSc_Nursing": [
+        "Specialty Nurse",
+        "Clinical Nurse"
+      ],
+      "MSc_Nursing": [
+        "Advanced Specialty Nurse"
+      ],
+      "BSc_with_Exp": [
+        "Specialty Unit Supervisor"
+      ],
+      "MSc_with_Exp": [
+        "Specialty Nursing Coordinator"
+      ]
+    },
+    {
+      "setting": "Primary Health Centre (PHC)",
+      "ANM": [
+        "ANM",
+        "MCH Worker",
+        "Immunization Worker"
+      ],
+      "GNM": [
+        "Staff Nurse",
+        "Community Health Nurse"
+      ],
+      "Post_Basic_BSc": [
+        "Community Health Nurse"
+      ],
+      "BSc_Nursing": [
+        "Community Health Nurse",
+        "Public Health Nurse"
+      ],
+      "MSc_Nursing": [
+        "Public Health Specialist"
+      ],
+      "BSc_with_Exp": [
+        "PHC Nursing Supervisor"
+      ],
+      "MSc_with_Exp": [
+        "Public Health Programme Coordinator"
+      ]
+    },
+    {
+      "setting": "Community Health Centre (CHC)",
+      "ANM": [
+        "ANM",
+        "MCH Worker"
+      ],
+      "GNM": [
+        "Staff Nurse",
+        "Community Health Nurse"
+      ],
+      "Post_Basic_BSc": [
+        "Community Health Nurse"
+      ],
+      "BSc_Nursing": [
+        "Community Health Nurse",
+        "Emergency Nurse"
+      ],
+      "MSc_Nursing": [
+        "Public Health Specialist"
+      ],
+      "BSc_with_Exp": [
+        "Nursing Supervisor"
+      ],
+      "MSc_with_Exp": [
+        "Community Health Programme Manager"
+      ]
+    },
+    {
+      "setting": "Health & Wellness Centre",
+      "ANM": [
+        "ANM",
+        "Community Health Worker"
+      ],
+      "GNM": [
+        "Community Health Nurse"
+      ],
+      "Post_Basic_BSc": [
+        "Community Health Nurse"
+      ],
+      "BSc_Nursing": [
+        "Community Health Officer (CHO)",
+        "Public Health Nurse"
+      ],
+      "MSc_Nursing": [
+        "Public Health Specialist"
+      ],
+      "BSc_with_Exp": [
+        "Community Health Supervisor"
+      ],
+      "MSc_with_Exp": [
+        "Programme Coordinator"
+      ]
+    },
+    {
+      "setting": "ICU / Critical Care Unit",
+      "ANM": [
+        "Clinical Support Assistant"
+      ],
+      "GNM": [
+        "ICU Nurse (with training)"
+      ],
+      "Post_Basic_BSc": [
+        "Critical Care Nurse"
+      ],
+      "BSc_Nursing": [
+        "ICU Nurse",
+        "Critical Care Nurse"
+      ],
+      "MSc_Nursing": [
+        "Advanced Critical Care Nurse"
+      ],
+      "BSc_with_Exp": [
+        "ICU Supervisor",
+        "Critical Care Team Lead"
+      ],
+      "MSc_with_Exp": [
+        "Critical Care Coordinator",
+        "ICU Nursing Manager"
+      ]
+    },
+    {
+      "setting": "Emergency / Casualty Department",
+      "ANM": [
+        "Triage Support"
+      ],
+      "GNM": [
+        "Emergency Nurse"
+      ],
+      "Post_Basic_BSc": [
+        "Emergency Nurse"
+      ],
+      "BSc_Nursing": [
+        "Emergency Nurse",
+        "Trauma Nurse"
+      ],
+      "MSc_Nursing": [
+        "Emergency & Trauma Specialist Nurse"
+      ],
+      "BSc_with_Exp": [
+        "Emergency Unit Supervisor"
+      ],
+      "MSc_with_Exp": [
+        "Emergency Nursing Coordinator"
+      ]
+    },
+    {
+      "setting": "Oncology Centre",
+      "ANM": [
+        "Support Nurse"
+      ],
+      "GNM": [
+        "Oncology Ward Nurse"
+      ],
+      "Post_Basic_BSc": [
+        "Oncology Nurse"
+      ],
+      "BSc_Nursing": [
+        "Oncology Nurse",
+        "Cancer Care Nurse"
+      ],
+      "MSc_Nursing": [
+        "Oncology Nursing Specialist"
+      ],
+      "BSc_with_Exp": [
+        "Oncology Unit Supervisor"
+      ],
+      "MSc_with_Exp": [
+        "Oncology Nursing Coordinator"
+      ]
+    },
+    {
+      "setting": "Pediatric Hospital / Unit",
+      "ANM": [
+        "Child Healthcare Support"
+      ],
+      "GNM": [
+        "Pediatric Nurse"
+      ],
+      "Post_Basic_BSc": [
+        "Pediatric Nurse"
+      ],
+      "BSc_Nursing": [
+        "Pediatric Nurse",
+        "Child Health Nurse"
+      ],
+      "MSc_Nursing": [
+        "Pediatric Nursing Specialist"
+      ],
+      "BSc_with_Exp": [
+        "Pediatric Unit Supervisor"
+      ],
+      "MSc_with_Exp": [
+        "Pediatric Nursing Coordinator"
+      ]
+    },
+    {
+      "setting": "NICU / Neonatal Unit",
+      "ANM": [
+        "Nursery Care Support"
+      ],
+      "GNM": [
+        "Neonatal Nurse"
+      ],
+      "Post_Basic_BSc": [
+        "Neonatal Nurse"
+      ],
+      "BSc_Nursing": [
+        "Neonatal Nurse"
+      ],
+      "MSc_Nursing": [
+        "Neonatal Nursing Specialist"
+      ],
+      "BSc_with_Exp": [
+        "NICU Supervisor"
+      ],
+      "MSc_with_Exp": [
+        "Neonatal Nursing Coordinator"
+      ]
+    },
+    {
+      "setting": "Dialysis Centre",
+      "ANM": [
+        "Dialysis Patient Support"
+      ],
+      "GNM": [
+        "Dialysis Nurse"
+      ],
+      "Post_Basic_BSc": [
+        "Dialysis Nurse"
+      ],
+      "BSc_Nursing": [
+        "Dialysis Nurse"
+      ],
+      "MSc_Nursing": [
+        "Nephrology Nursing Specialist"
+      ],
+      "BSc_with_Exp": [
+        "Dialysis Unit Supervisor"
+      ],
+      "MSc_with_Exp": [
+        "Nephrology Nursing Coordinator"
+      ]
+    },
+    {
+      "setting": "Operation Theatre (OT)",
+      "ANM": [
+        "OT Attendant / Support"
+      ],
+      "GNM": [
+        "Scrub Nurse",
+        "Circulating Nurse"
+      ],
+      "Post_Basic_BSc": [
+        "OT Nurse"
+      ],
+      "BSc_Nursing": [
+        "OT Staff Nurse",
+        "Specialty Scrub Nurse"
+      ],
+      "MSc_Nursing": [
+        "Perioperative Nurse Specialist"
+      ],
+      "BSc_with_Exp": [
+        "OT Floor Manager / In-Charge"
+      ],
+      "MSc_with_Exp": [
+        "OT Nursing Superintendent"
+      ]
+    },
+    {
+      "setting": "Psychiatric Facility / Mental Health Center",
+      "ANM": [
+        "Community/Mental Health Support"
+      ],
+      "GNM": [
+        "Psychiatric Nurse"
+      ],
+      "Post_Basic_BSc": [
+        "Psychiatric Nurse"
+      ],
+      "BSc_Nursing": [
+        "Mental Health Nurse"
+      ],
+      "MSc_Nursing": [
+        "Mental Health Nursing Specialist"
+      ],
+      "BSc_with_Exp": [
+        "Psychiatric Unit Supervisor"
+      ],
+      "MSc_with_Exp": [
+        "Mental Health Nursing Coordinator"
+      ]
+    },
+    {
+      "setting": "Nursing College / School",
+      "ANM": [
+        "Basic Demonstrator Assistant"
+      ],
+      "GNM": [
+        "Clinical Demonstrator"
+      ],
+      "Post_Basic_BSc": [
+        "Clinical Instructor"
+      ],
+      "BSc_Nursing": [
+        "Clinical Instructor",
+        "Nursing Tutor"
+      ],
+      "MSc_Nursing": [
+        "Nursing Lecturer",
+        "Assistant Professor"
+      ],
+      "BSc_with_Exp": [
+        "Senior Clinical Instructor"
+      ],
+      "MSc_with_Exp": [
+        "Associate Professor",
+        "Professor / Vice Principal / Principal"
+      ]
+    },
+    {
+      "setting": "Clinical Research Organisation (CRO)",
+      "ANM": [
+        "Research Support Worker"
+      ],
+      "GNM": [
+        "Clinical Research Support"
+      ],
+      "Post_Basic_BSc": [
+        "Clinical Research Nurse"
+      ],
+      "BSc_Nursing": [
+        "Clinical Research Nurse",
+        "Clinical Research Associate (CRA)"
+      ],
+      "MSc_Nursing": [
+        "Clinical Research Associate",
+        "Nursing Researcher"
+      ],
+      "BSc_with_Exp": [
+        "Clinical Research Coordinator"
+      ],
+      "MSc_with_Exp": [
+        "Clinical Research Manager"
+      ]
+    },
+    {
+      "setting": "Military / Armed Forces Healthcare",
+      "ANM": [
+        "Recruitment-specific support"
+      ],
+      "GNM": [
+        "Nursing Staff (Recruitment-specific)"
+      ],
+      "Post_Basic_BSc": [
+        "Nursing Officer (MNS)"
+      ],
+      "BSc_Nursing": [
+        "Lieutenant / Nursing Officer (Military Nursing Service)"
+      ],
+      "MSc_Nursing": [
+        "Specialist Nursing Officer"
+      ],
+      "BSc_with_Exp": [
+        "Senior Nursing Officer / Captain / Major"
+      ],
+      "MSc_with_Exp": [
+        "Senior Nursing Administrator / Lt Colonel / Colonel"
+      ]
+    },
+    {
+      "setting": "Home Healthcare & Hospice",
+      "ANM": [
+        "Home Care Assistant",
+        "Elderly Care Support"
+      ],
+      "GNM": [
+        "Home Care Nurse",
+        "Palliative Care Nurse"
+      ],
+      "Post_Basic_BSc": [
+        "Home Healthcare Nurse"
+      ],
+      "BSc_Nursing": [
+        "Home Healthcare Nurse",
+        "Palliative Care Case Nurse"
+      ],
+      "MSc_Nursing": [
+        "Advanced Home Healthcare / Palliative Specialist Nurse"
+      ],
+      "BSc_with_Exp": [
+        "Home Care Supervisor",
+        "Case Manager"
+      ],
+      "MSc_with_Exp": [
+        "Home Healthcare Operations Manager"
+      ]
+    },
+    {
+      "setting": "International Hospital (USA, UK, Canada, Australia, Gulf)",
+      "ANM": [
+        "Country-specific Care Assistant"
+      ],
+      "GNM": [
+        "Registered Nurse (with bridging / licensing where recognized)"
+      ],
+      "Post_Basic_BSc": [
+        "Registered Nurse (RN)"
+      ],
+      "BSc_Nursing": [
+        "Registered Nurse (RN - NCLEX / NMC UK / AHPRA)"
+      ],
+      "MSc_Nursing": [
+        "Specialist Nurse / Clinical Nurse Specialist (CNS)"
+      ],
+      "BSc_with_Exp": [
+        "Senior Registered Nurse / Charge Nurse"
+      ],
+      "MSc_with_Exp": [
+        "Nurse Manager / Clinical Nurse Educator / Nursing Administrator"
+      ]
+    }
+  ],
+  "specializations": [
+    {
+      "id": "medical_surgical_nursing",
+      "name": "Medical-Surgical Nursing",
+      "domain": "Adult Inpatient & Surgical Care",
+      "overview": {
+        "definition": "A foundational specialty focused on caring for adult patients with a wide variety of acute and chronic medical conditions or those recovering from surgical procedures.",
+        "primary_goals": [
+          "Promote recovery and stabilize acutely ill adult patients",
+          "Manage postoperative care and wound healing",
+          "Prevent inpatient complications such as infections, blood clots, and falls",
+          "Educate patients on chronic illness self-management"
+        ],
+        "target_patients": [
+          "Adults hospitalized for medical conditions",
+          "Adults undergoing or recovering from surgical procedures",
+          "Patients transitioning from intensive care to general wards"
+        ]
+      },
+      "roles_and_responsibilities": {
+        "direct_care": [
+          "Comprehensive health assessments and ongoing vital sign monitoring",
+          "Medication administration via oral, IV, and subcutaneous routes",
+          "Wound care, dressing changes, and surgical drain management",
+          "Preoperative preparation and immediate postoperative recovery monitoring"
+        ],
+        "clinical_management": [
+          "Recognizing early clinical deterioration and escalating care",
+          "Managing IV infusions, fluid balance, and electrolyte monitoring",
+          "Facilitating safe patient mobility and physical recovery"
+        ],
+        "patient_education": [
+          "Pre-surgical expectations and recovery milestones",
+          "Medication schedules and wound care instructions for discharge",
+          "Signs of post-surgical complications requiring urgent medical review"
+        ]
+      },
+      "work_settings": [
+        "Inpatient Medical Wards",
+        "Surgical Floors / Units",
+        "Ambulatory / Day Surgery Centers",
+        "Subacute & Transitional Care Facilities"
+      ],
+      "education_and_career_pathway": {
+        "entry_qualifications": [
+          "Associate Degree in Nursing (ADN)",
+          "Bachelor of Science in Nursing (BSN)",
+          "General Nursing and Midwifery (GNM)"
+        ],
+        "general_pathway": "Nursing Degree -> Licensure (NCLEX-RN / State Council) -> RN Clinical Practice (2+ Years) -> Med-Surg Specialty Certification",
+        "workforce_composition": "While LPNs and LVNs can practice in med-surg settings, the vast majority of medical-surgical nurses are Registered Nurses (RNs)."
+      },
+      "certifications": [
+        {
+          "name": "Certified Medical-Surgical Registered Nurse (CMSRN)",
+          "acronym": "CMSRN",
+          "provider": "Academy of Medical-Surgical Nurses (AMSN) / MSNCB",
+          "requirements": "Minimum 2 years of RN experience and at least 2,000 hours of med-surg clinical practice within the past 3 years."
+        },
+        {
+          "name": "Medical-Surgical Nursing Certification (MEDSURG-BC)",
+          "acronym": "MEDSURG-BC",
+          "provider": "American Nurses Credentialing Center (ANCC)",
+          "requirements": "Minimum 2 years full-time RN practice, 2,000 clinical hours in med-surg, and 30 continuing education (CE) hours in med-surg within past 3 years."
+        }
+      ],
+      "required_skills": {
+        "clinical": [
+          "Broad pathology knowledge across multiple adult organ systems",
+          "Post-surgical assessment and pain management",
+          "Wound care and aseptic technique",
+          "IV insertion and infusion pump management"
+        ],
+        "soft_skills": [
+          "Prioritization and multitasking in high-turnover ward environments",
+          "Interdisciplinary team communication (physicians, surgeons, PT/OT)",
+          "Empathetic patient and caregiver discharge teaching"
+        ]
+      },
+      "key_rag_takeaways": [
+        "Med-surg is the single largest nursing specialty, forming the backbone of hospital inpatient care.",
+        "Both ANCC and AMSN certification pathways require at least 2 years of RN experience and 2,000 clinical hours.",
+        "Serves as the foundational clinical training ground before transitioning into advanced specialties like ICU, OR, or Oncology."
+      ]
+    },
+    {
+      "id": "community_health_nursing",
+      "name": "Community Health Nursing",
+      "domain": "Public Health & Primary Care",
+      "overview": {
+        "definition": "A specialized branch combining nursing and public health principles to promote wellness, prevent disease, and deliver care at the community and population level.",
+        "primary_goals": [
+          "Bring healthcare to where people live, study, and work",
+          "Promote health equity and reduce healthcare disparities",
+          "Prevent disease outbreaks through screening, education, and vaccination",
+          "Manage chronic conditions in community and rural settings"
+        ],
+        "target_patients": [
+          "Underserved and low-income populations",
+          "Rural communities with limited hospital access",
+          "Vulnerable groups including infants, mothers, and elderly citizens",
+          "Individuals requiring chronic disease follow-up outside hospitals"
+        ]
+      },
+      "roles_and_responsibilities": {
+        "preventive_care": [
+          "Mass immunization programs (TB, Flu, COVID-19, childhood vaccines)",
+          "Health screenings (blood pressure, diabetes, infectious disease)",
+          "Nutritional demonstrations and maternal-child health counseling"
+        ],
+        "direct_community_services": [
+          "Operating mobile health units and community clinics",
+          "Home visits for post-discharge recovery and maternal-infant monitoring",
+          "Care coordination linking patients with government welfare schemes"
+        ],
+        "advocacy_and_education": [
+          "Conducting school health programs and hygiene workshops",
+          "Outbreak surveillance and reporting to public health authorities",
+          "Advocating for environmental hygiene and clean water initiatives"
+        ]
+      },
+      "community_vs_public_health_nursing": {
+        "community_health_nursing": "Emphasizes direct, hands-on clinical care, health promotion, and individual/family interventions within specific local communities.",
+        "public_health_nursing": "Operates at a broader macro-population level, focusing on epidemiological policy, statewide health programs, and macro-assessments."
+      },
+      "work_settings": [
+        "Primary Health Centres (PHCs)",
+        "Community Health Centres (CHCs)",
+        "Health & Wellness Centres",
+        "Public Health Departments & Non-Profits (NGOs)",
+        "Rural Health Clinics & Mobile Health Units",
+        "Schools and Correctional Facilities"
+      ],
+      "education_and_career_pathway": {
+        "entry_qualifications": [
+          "ANM",
+          "GNM",
+          "B.Sc Nursing"
+        ],
+        "progression_path": "ANM/GNM/B.Sc -> RN Licensure -> Community Clinic Experience -> Post-Basic/MSN in Community Health Nursing -> Public Health Program Manager / Director",
+        "salary_and_satisfaction": {
+          "us_national_average_salary": "$78,995 / year",
+          "job_satisfaction_rates": "86.7% work satisfaction, 93.3% satisfaction with community relationships (per reported survey data)"
+        }
+      },
+      "key_rag_takeaways": [
+        "Aligns with WHO Sustainable Development Goals (SDGs) by bringing primary healthcare directly to populations.",
+        "Demonstrated outcomes include a 23% reduction in emergency visits and 15% reduction in unplanned hospital admissions (SingHealth data).",
+        "Home-visitation nurse programs can save up to $30,000 per infant in the first year of life through early interventions."
+      ]
+    },
+    {
+      "id": "child_health_pediatric_nursing",
+      "name": "Child Health Nursing / Pediatric Nursing",
+      "domain": "Pediatrics & Adolescent Healthcare",
+      "overview": {
+        "definition": "Promotes, maintains, and restores the health of infants, children, and adolescents from birth through the teenage years, grounded in child development science.",
+        "core_foundational_principle": "Children are not simply small adults. Their physiological, developmental, and emotional responses require unique, child-specific clinical care.",
+        "core_philosophies": [
+          "Family-Centered Care: Recognizing family as the constant in a child's life; mutual decision-making and respect for family strengths.",
+          "Atraumatic Care: Therapeutic care eliminating or minimizing psychological and physical distress through play and child-friendly approaches."
+        ]
+      },
+      "roles_and_responsibilities": {
+        "clinical_procedures": [
+          "Pediatric vital signs and age-appropriate physical examinations",
+          "Rigorous weight-based pediatric medication and fluid calculations",
+          "Pediatric IV cannulation, feeding tubes, and airway management",
+          "Administering childhood vaccinations per national immunization schedules"
+        ],
+        "growth_and_development": [
+          "Tracking developmental milestones (motor skills, speech, cognition, social behavior)",
+          "Early identification of developmental delays and growth faltering",
+          "Height, weight, and head circumference charting on growth curves"
+        ],
+        "psychosocial_support": [
+          "Conducting play therapy to reduce fear of medical procedures and hospitalization",
+          "Guiding parents through grief, chronic illness, and bereavement",
+          "Advocating for children's rights and ethical protections"
+        ]
+      },
+      "ethical_principles": {
+        "autonomy": "Respecting child's growing decision-making capacity and parental choices",
+        "beneficence": "Acting in the child's best interests to promote optimal growth",
+        "nonmaleficence": "Minimizing trauma and harm from medical interventions",
+        "justice": "Fair and equitable distribution of pediatric healthcare resources"
+      },
+      "work_settings": [
+        "Dedicated Pediatric Hospitals",
+        "Pediatric Intensive Care Units (PICUs)",
+        "Neonatal Intensive Care Units (NICUs)",
+        "Pediatric Outpatient Clinics",
+        "Schools and Child Welfare Programs",
+        "Pediatric Specialty Centers (Oncology, Cardiology, Surgery)"
+      ],
+      "education_and_career_pathway": {
+        "academic_degrees": [
+          "GNM",
+          "B.Sc Nursing",
+          "M.Sc Pediatric / Child Health Nursing",
+          "PhD"
+        ],
+        "certifications": [
+          {
+            "name": "Certified Pediatric Nurse (CPN)",
+            "provider": "Pediatric Nursing Certification Board (PNCB)",
+            "requirements": "RN license + 1,800 clinical hours of pediatric nursing experience in the previous 2 years."
+          }
+        ],
+        "salary_in_india": {
+          "freshers": "₹3 Lakh - ₹6 Lakh per annum (3-6 LPA)",
+          "experienced": "₹6 Lakh - ₹10 Lakh per annum (6-10 LPA)",
+          "specialists": "₹10+ Lakh per annum"
+        }
+      },
+      "key_rag_takeaways": [
+        "PNCB certification requires 1,800 clinical pediatric hours over the prior 2 years.",
+        "Dosage errors in pediatrics are high-risk; exact weight-based calculations are mandatory.",
+        "Play therapy and atraumatic techniques are clinical tools used to lower anxiety and improve procedure cooperation."
+      ]
+    },
+    {
+      "id": "mental_health_psychiatric_nursing",
+      "name": "Psychiatric and Mental Health Nursing",
+      "domain": "Mental Health & Behavioral Sciences",
+      "overview": {
+        "definition": "A specialized field focused on assessing, diagnosing, and caring for individuals with mental health disorders, psychiatric conditions, and substance use issues.",
+        "care_model": "Biopsychosocial model—evaluating interacting biological, psychological, and social factors in mental wellness and illness.",
+        "target_conditions": [
+          "Depressive Disorders & Major Depressive Disorder (MDD)",
+          "Bipolar and Related Disorders",
+          "Anxiety Disorders, Panic Disorder, and Phobias",
+          "Schizophrenia and Psychotic Disorders",
+          "Eating Disorders (Anorexia Nervosa, Bulimia Nervosa)",
+          "Post-Traumatic Stress Disorder (PTSD) & Trauma-Related Conditions",
+          "Obsessive-Compulsive Disorder (OCD) & ADHD",
+          "Substance Use Disorders & Co-Occurring Disorders (Dual Diagnosis)",
+          "Dementia and Geriatric Mental Health Crises"
+        ]
+      },
+      "roles_and_responsibilities": {
+        "registered_nurse_level": [
+          "Conducting mental status examinations (MSE) and suicide risk assessments",
+          "Developing therapeutic relationships without judgment",
+          "De-escalating psychiatric crises and managing acute behavioral disruptions",
+          "Administering psychiatric medications and monitoring therapeutic response and EPS/side effects",
+          "Providing patient and family psychoeducation on coping mechanisms and wellness"
+        ],
+        "advanced_practice_pmhnp": [
+          "Comprehensive psychiatric evaluation and clinical diagnosis",
+          "Providing individual, group, and family psychotherapy (including CBT)",
+          "Prescribing, titrating, and managing psychotropic medications",
+          "Ordering and interpreting laboratory tests and conducting procedures such as TMS (where trained/authorized)"
+        ]
+      },
+      "prescribing_authority_and_jurisdiction": {
+        "united_states": "Psychiatric Mental Health Nurse Practitioners (PMHNPs) hold prescribing rights in all 50 states, with full independent practice in 21 states and physician collaboration/supervision required in others.",
+        "india_and_global": "Prescribing rights and scope of practice are governed strictly by national and state statutory councils; general psychiatric nurses in India administer medications under physician order."
+      },
+      "work_settings": [
+        "Inpatient Psychiatric Facilities & State Mental Hospitals",
+        "General Hospital Psychiatric Wards & Crisis Units",
+        "Community Mental Health Centers & Outpatient Clinics",
+        "Substance Abuse Rehabilitation Facilities",
+        "Correctional Facilities & Prisons",
+        "Domestic Violence Shelters & Private Psychiatric Practices"
+      ],
+      "education_and_certifications": {
+        "pathway": "BSN -> RN Licensure -> Psychiatric Clinical Experience -> MSN / DNP (Psychiatric-Mental Health Specialization) -> PMHNP-BC Certification",
+        "certifications": [
+          {
+            "name": "Psychiatric-Mental Health Nurse Practitioner (PMHNP-BC)",
+            "provider": "American Nurses Credentialing Center (ANCC)"
+          }
+        ]
+      },
+      "key_rag_takeaways": [
+        "Addresses both psychiatric illnesses and dual diagnosis (co-occurring substance use and mental disorders).",
+        "Requires deep mastery of de-escalation, suicide prevention, and therapeutic communication.",
+        "Differs from a psychiatrist primarily in education pathway: PMHNPs are advanced practice registered nurses with graduate degrees; psychiatrists are medical doctors (MD/DO)."
+      ]
+    },
+    {
+      "id": "emergency_nursing",
+      "name": "Emergency Nursing",
+      "domain": "Emergency & Trauma Care",
+      "overview": {
+        "definition": "Frontline, high-pressure nursing focused on rapid assessment, triage, resuscitation, and stabilization of undiagnosed, acute, or trauma patients across all ages.",
+        "environment_characteristics": [
+          "Unpredictable patient arrivals and fluctuating volumes",
+          "High clinical urgency and rapid deterioration potential",
+          "Cognitive overload, interruptions, and time-critical decision-making",
+          "Overcrowding and boarding patients awaiting inpatient beds"
+        ]
+      },
+      "roles_and_responsibilities": {
+        "triage_and_assessment": [
+          "Rapid clinical evaluation to determine acuity level (e.g., ESI or Manchester Triage)",
+          "Prioritizing life-threatening emergencies over less urgent presentations",
+          "Continuous surveillance of waiting-room and boarding patients"
+        ],
+        "resuscitation_and_interventions": [
+          "Performing CPR and advanced cardiac life support protocols",
+          "Airway management, assisting with rapid sequence intubation (RSI)",
+          "Rapid IV/IO cannulation, fluid boluses, and blood product administration",
+          "Trauma stabilization, wound care, and hemorrhage control"
+        ],
+        "operations_and_flow": [
+          "Managing patient flow through intake, triage, diagnostics, treatment, and disposition",
+          "Coordinating with multi-specialty trauma, stroke, and cardiac teams",
+          "Disaster preparedness, mass-casualty drills, and pandemic surge management"
+        ]
+      },
+      "clinical_frameworks": {
+        "hiraid_framework": {
+          "H": "History (Presenting complaint, allergies, medical background)",
+          "I": "Identifying Red Flags (Physiological markers of immediate risk)",
+          "R": "Assessment (Physical examination, primary & secondary survey)",
+          "A": "Interventions (Stabilizing procedures, emergency meds, oxygen)",
+          "I_D": "Diagnostics (Ordering, performing, and reviewing tests promptly)"
+        }
+      },
+      "work_settings": [
+        "Hospital Emergency Departments (ED / ER)",
+        "Trauma Centers (Levels I-IV)",
+        "Urgent Care Clinics",
+        "Ambulance & Pre-Hospital EMS Services",
+        "Disaster and Mass-Casualty Response Units"
+      ],
+      "education_and_certifications": {
+        "entry": "RN Licensure (ADN / BSN / GNM)",
+        "certifications": [
+          {
+            "name": "Certified Emergency Nurse (CEN)",
+            "provider": "Board of Certification for Emergency Nursing (BCEN)"
+          },
+          {
+            "name": "Trauma Nursing Core Course (TNCC)",
+            "provider": "Emergency Nurses Association (ENA)"
+          },
+          {
+            "name": "Basic Life Support (BLS), Advanced Cardiovascular Life Support (ACLS), Pediatric Advanced Life Support (PALS)",
+            "provider": "American Heart Association (AHA) or equivalent"
+          }
+        ]
+      },
+      "key_rag_takeaways": [
+        "Unlike inpatient floors with predictable rosters, ED nursing demands dynamic reassessment and constant prioritization.",
+        "A seemingly trivial presentation must never be dismissed—serious pathology frequently disguises as minor symptoms.",
+        "Alcohol aroma should never preclude medical assessment; underlying head injury or metabolic crisis must be ruled out."
+      ]
+    },
+    {
+      "id": "geriatric_nursing",
+      "name": "Geriatric Nursing (Gerontological Nursing)",
+      "domain": "Elderly Care & Long-Term Healthcare",
+      "overview": {
+        "definition": "Specialized care focused on the physical, cognitive, emotional, and social health needs of older adults (commonly defined as 60+ or 65+ years).",
+        "demographic_context": [
+          "By 2030, 1 in 6 people globally will be aged 60+ (increasing to 1.4 billion).",
+          "By 2050, the 60+ global population will reach 2.1 billion, with 426 million aged 80+.",
+          "Older adults frequently exhibit atypical disease presentations (e.g., delirium without fever in infections)."
+        ],
+        "age_sub_classifications": {
+          "young_old": "60 to 74 years",
+          "middle_old": "75 to 84 years",
+          "oldest_old": "85 years and above"
+        }
+      },
+      "common_conditions_and_syndromes": {
+        "chronic_diseases": [
+          "Cardiovascular: Hypertension, Coronary Artery Disease, Congestive Heart Failure",
+          "Neurodegenerative: Alzheimer's Disease, Vascular Dementia, Parkinson's Disease",
+          "Musculoskeletal: Osteoarthritis, Osteoporosis, Sarcopenia, Chronic Pain",
+          "Metabolic & Respiratory: Type 2 Diabetes, COPD, Pneumonia"
+        ],
+        "geriatric_syndromes": [
+          "Frailty & Decreased Physiological Reserve",
+          "Falls, Gait Instability, and Fragility Fractures",
+          "Polypharmacy & Adverse Drug Interactions",
+          "Pressure Ulcers (Bedsores)",
+          "Delirium vs. Dementia vs. Depression",
+          "Urinary & Fecal Incontinence"
+        ]
+      },
+      "roles_and_responsibilities": {
+        "clinical_management": [
+          "Comprehensive Geriatric Assessment (physical, cognitive, functional, social)",
+          "Polypharmacy review and side-effect monitoring",
+          "Fall prevention programs and mobility aid training",
+          "Skin assessment, pressure-relieving repositioning, and wound care"
+        ],
+        "rehabilitation_and_support": [
+          "Promoting independence in Activities of Daily Living (ADLs: bathing, dressing, eating)",
+          "Cognitive stimulation, memory care, and delirium prevention",
+          "Supporting family caregivers and addressing burnout",
+          "Palliative, hospice, and dignity-centered end-of-life care"
+        ]
+      },
+      "work_settings": [
+        "Nursing Homes & Skilled Nursing Facilities (SNFs)",
+        "Assisted Living & Retirement Communities",
+        "Home Healthcare Agencies",
+        "Hospital Geriatric & Acute Care for Elders (ACE) Units",
+        "Rehabilitation & Hospice Centers"
+      ],
+      "education_and_certifications": {
+        "certifications": [
+          {
+            "name": "Gerontological Nursing Certification (GERO-BC)",
+            "provider": "American Nurses Credentialing Center (ANCC)",
+            "requirements": "RN license, 2 years full-time RN practice, 2,000 clinical hours in gerontology, and 30 CE hours within past 3 years."
+          }
+        ],
+        "advanced_practice": "Adult-Gerontology Primary Care or Acute Care Nurse Practitioner (AGNP)",
+        "salary_ranges": {
+          "india": "₹2.5 Lakh - ₹5.5 Lakh per annum (INR 2.5-5.5 LPA)",
+          "united_states": "$88,014 - $97,550 annual median"
+        }
+      },
+      "key_rag_takeaways": [
+        "Preserving patient independence and dignity in ADLs is a core goal, rather than doing everything for the patient.",
+        "Falls are rarely isolated events; they are red flags for underlying medical conditions, polypharmacy, or environmental hazards.",
+        "Over 27% of global suicide deaths occur in adults aged 60+, highlighting the importance of screening for geriatric depression."
+      ]
+    },
+    {
+      "id": "orthopedic_nursing",
+      "name": "Orthopedic Nursing",
+      "domain": "Musculoskeletal Care & Rehabilitation",
+      "overview": {
+        "definition": "Specialized nursing dedicated to the prevention, treatment, and rehabilitation of disorders, injuries, and surgical corrections of the musculoskeletal system (bones, joints, muscles, tendons, ligaments).",
+        "primary_goals": [
+          "Alleviate acute and chronic musculoskeletal pain",
+          "Restore physical mobility, muscle strength, and range of motion",
+          "Prevent post-injury and post-surgical complications (e.g., DVT, compartment syndrome)",
+          "Educate patients on safe movement, mobility aids, and bone health"
+        ]
+      },
+      "conditions_managed": [
+        "Fractures, dislocations, and polytrauma",
+        "Joint diseases: Osteoarthritis, Rheumatoid Arthritis, Avascular Necrosis",
+        "Spine disorders: Scoliosis, Spinal Stenosis, Herniated Discs",
+        "Soft tissue injuries: Tendon ruptures, ACL/meniscus tears, rotator cuff tears",
+        "Metabolic bone conditions: Osteoporosis and Fragility Fractures"
+      ],
+      "roles_and_responsibilities": {
+        "preoperative_and_surgical": [
+          "Preparing patients for joint replacements (total knee/hip arthroplasty), spinal fusions, and fracture fixations",
+          "Educating patients on surgical recovery milestones and early mobilization"
+        ],
+        "postoperative_and_wound_care": [
+          "Performing serial neurovascular assessments (5 Ps: Pain, Pulse, Pallor, Paresthesia, Paralysis)",
+          "Managing surgical drains, dressings, and incisional integrity",
+          "Assisting with early ambulation on postoperative day 0/1"
+        ],
+        "devices_and_immobilization": [
+          "Cast application, monitoring for tightness, and cast care education",
+          "Managing skeletal and skin traction systems",
+          "External fixator pin-site care to prevent osteomyelitis",
+          "Teaching safe crutch, walker, and cane gaits"
+        ],
+        "critical_complications_monitoring": [
+          "Deep Vein Thrombosis (DVT) and Pulmonary Embolism (PE)",
+          "Acute Compartment Syndrome (requires emergent fasciotomy)",
+          "Fat Embolism Syndrome (associated with long bone fractures)",
+          "Pressure ulcers, muscle atrophy, and joint contractures"
+        ]
+      },
+      "work_settings": [
+        "Inpatient Orthopedic Wards & Surgical Floors",
+        "Outpatient Orthopedic & Sports Medicine Clinics",
+        "Trauma Centers & Operating Rooms",
+        "Rehabilitation Centers & Physical Therapy Units",
+        "Home Healthcare"
+      ],
+      "education_and_certifications": {
+        "certifications": [
+          {
+            "name": "Orthopaedic Nurse Certified (ONC)",
+            "provider": "Orthopaedic Nurses Certification Board (ONCB)"
+          },
+          {
+            "name": "Certified Rehabilitation Registered Nurse (CRRN)",
+            "provider": "Association of Rehabilitation Nurses (ARN)"
+          },
+          {
+            "name": "Trauma Certified Registered Nurse (TCRN)",
+            "provider": "Board of Certification for Emergency Nursing (BCEN)"
+          }
+        ]
+      },
+      "key_rag_takeaways": [
+        "Neurovascular checks are paramount: unremitting pain out of proportion to injury is the earliest warning sign of compartment syndrome.",
+        "Multimodal pain management incorporates non-pharmacological tools (cryotherapy, elevation, guided imagery) alongside analgesics.",
+        "Rapid post-surgical mobilization significantly reduces DVT rates and shortens hospital lengths of stay."
+      ]
+    },
+    {
+      "id": "critical_care_nursing",
+      "name": "Critical Care Nursing (ICU Nursing)",
+      "domain": "Intensive Care & High Acuity Medicine",
+      "overview": {
+        "definition": "High-acuity, continuous surveillance and life-support care for patients facing severe, complex, or life-threatening physiological instability.",
+        "primary_goals": [
+          "Physiological stabilization and resuscitation",
+          "Continuous vital-sign and hemodynamic monitoring",
+          "Early detection of subtle multisystem clinical decline",
+          "Managing complex life-support devices and vasoactive infusions"
+        ],
+        "historical_context": "Began developing rapidly in the 1950s with mechanical ventilation developments and dedicated intensive care units, rooted in Florence Nightingale's triage and cohorting principles."
+      },
+      "sub_specialty_environments": [
+        "Medical Intensive Care Unit (MICU)",
+        "Surgical Intensive Care Unit (SICU)",
+        "Coronary / Cardiac Care Unit (CCU)",
+        "Pediatric Intensive Care Unit (PICU)",
+        "Neonatal Intensive Care Unit (NICU)",
+        "Post-Anesthesia Care Unit (PACU)",
+        "Flight & Critical Care Transport Nursing"
+      ],
+      "roles_and_responsibilities": {
+        "monitoring_and_diagnostics": [
+          "Continuous arterial line, central venous pressure (CVP), and ECG monitoring",
+          "Serial blood gas (ABG) analysis and electrolyte monitoring",
+          "Detecting subtle changes before overt cardiorespiratory collapse occurs"
+        ],
+        "interventions_and_technologies": [
+          "Operating and troubleshooting mechanical ventilators",
+          "Titrating potent vasoactive and inotropic continuous IV infusions",
+          "Managing renal replacement therapy (CRRT) and ECMO circuits",
+          "Assisting in bedside emergency procedures (intubation, chest tube, central line)"
+        ],
+        "advocacy_and_family_care": [
+          "Serving as the voice for sedated, intubated, or unconscious patients",
+          "Translating complex medical prognoses into empathetic family updates",
+          "Facilitating multidisciplinary ethics and goals-of-care conferences"
+        ]
+      },
+      "education_and_certifications": {
+        "pathway": "RN Licensure -> Acute Care Experience -> Critical Care Residency -> Specialty Certification",
+        "certifications": [
+          {
+            "name": "Critical Care Registered Nurse (CCRN - Adult, Pediatric, or Neonatal)",
+            "provider": "American Association of Critical-Care Nurses (AACN)"
+          }
+        ],
+        "india_specific_course_facts": {
+          "course": "Critical Care Nursing Program / Post-Basic Diploma",
+          "eligibility": "10+2 with 50% marks / GNM / B.Sc Nursing",
+          "top_institutes": "AIIMS Delhi, JIPMER Puducherry, Parul University",
+          "approx_fees": "₹50,000 - ₹3,00,000",
+          "average_salary": "₹4.3 LPA"
+        }
+      },
+      "key_rag_takeaways": [
+        "Patient-to-nurse ratio is typically 1:1 or 1:2 due to high patient acuity.",
+        "CCRN certification from AACN is the gold standard for clinical proficiency in intensive care.",
+        "Critical care nurses must master both high-tech equipment operation and high-touch empathetic family communication."
+      ]
+    },
+    {
+      "id": "neonatal_care_nursing",
+      "name": "Neonatal Care Nursing (NICU Nursing)",
+      "domain": "Newborn & Neonatal Intensive Care",
+      "overview": {
+        "definition": "Specialized nursing dedicated to the care of newborn infants during the neonatal period (first 28 days of life) and extending up to months or 2 years for infants with chronic prematurity complications.",
+        "target_populations": [
+          "Extremely preterm and very low birth weight (VLBW) infants",
+          "Newborns with respiratory distress syndrome (RDS) or meconium aspiration",
+          "Infants with congenital malformations, cardiac defects, or requiring neonatal surgery",
+          "Neonatal sepsis, hyperbilirubinemia, and hypoxic-ischemic encephalopathy (HIE)"
+        ]
+      },
+      "levels_of_neonatal_care": {
+        "level_1_basic_newborn": "Well-newborn nursery, routine neonatal care, healthy full-term infants.",
+        "level_2_special_care_nursery": "Premature/moderately ill convalescing infants needing feeding support, phototherapy, or supplemental oxygen.",
+        "level_3_nicu": "Critically ill infants requiring mechanical ventilation, surfactant administration, total parenteral nutrition, and surgical support.",
+        "level_4_regional_nicu": "Highest tier with full pediatric surgical subspecialties, ECMO capabilities, and complex congenital repair."
+      },
+      "core_clinical_responsibilities": {
+        "thermal_and_respiratory": [
+          "Maintaining neutral thermal environment via incubators and radiant warmers to prevent hypothermia",
+          "Managing CPAP, high-frequency oscillatory ventilation, and surfactant administration",
+          "Continuous pulse oximetry, heart rate, and apnea monitoring"
+        ],
+        "nutrition_and_development": [
+          "Gavage (tube) feeding, donor milk management, and lactation support",
+          "Developmentally supportive care: minimal handling, sound/light reduction, and Kangaroo Mother Care (KMC)",
+          "Apgar score assessment immediately post-delivery"
+        ],
+        "family_centered_care": [
+          "Guiding parents through extreme stress, fear, and incubator barriers",
+          "Teaching safe home care, infant CPR, and oxygen weaning prior to discharge"
+        ]
+      },
+      "india_specific_challenges_and_norms": {
+        "siu_norms": "Staff Inspection Unit (1991-92) recommends 1:2 nurse-to-infant ratio in NICU, though rural hospitals often experience 1:25.",
+        "educational_status": "Standardized standalone M.Sc Neonatal Nursing remains limited in India; concepts are typically integrated into Child Health/Pediatric M.Sc.",
+        "clinical_exposure": "Approximately 1/3 of Indian nursing graduates have limited direct NICU exposure, leading to initiatives by NNF and Apollo Simulation Centers."
+      },
+      "career_roles": [
+        "Staff Neonatal Nurse",
+        "NICU Nurse Manager",
+        "Developmental Care Specialist",
+        "Neonatal Transport Nurse / ECMO Specialist",
+        "Neonatal Nurse Practitioner (NNP) / Clinical Nurse Specialist (CNS)"
+      ],
+      "key_rag_takeaways": [
+        "Premature infants lack brown fat and thermal control; hypothermia can rapidly precipitate metabolic acidosis.",
+        "Developmentally supportive care (cluster care, dim lighting, Kangaroo care) directly improves neurodevelopmental outcomes.",
+        "NNP roles require graduate education (MSN/DNP) and substantial Level III NICU clinical experience."
+      ]
+    },
+    {
+      "id": "oncology_nursing",
+      "name": "Oncology Nursing",
+      "domain": "Cancer Care & Hematology",
+      "overview": {
+        "definition": "Comprehensive nursing care for patients diagnosed with cancer, individuals at risk of cancer, and survivors across the entire cancer continuum from prevention to survivorship and end-of-life.",
+        "continuum_stages": [
+          "Cancer screening, genetic risk assessment, and prevention",
+          "Diagnostic workup and staging",
+          "Active multimodal treatments (chemotherapy, radiation, immunotherapy, surgery)",
+          "Symptom, side effect, and toxicity management",
+          "Survivorship, remission, and palliative / hospice care"
+        ]
+      },
+      "sub_specialties": [
+        "Chemotherapy & Infusion Nursing",
+        "Radiation Oncology Nursing",
+        "Surgical Oncology Nursing",
+        "Pediatric Hematology-Oncology",
+        "Bone Marrow / Stem Cell Transplant Nursing",
+        "Breast Oncology / Breast Care (CBCN)",
+        "Gynecological Oncology Nursing",
+        "Cancer Genetic Counseling"
+      ],
+      "roles_and_responsibilities": {
+        "treatment_administration": [
+          "Safe preparation and administration of hazardous antineoplastic chemotherapy agents",
+          "Managing infusion reactions, hypersensitivity, and extravasation emergencies",
+          "Administering immunotherapies and monitoring for immune-related adverse events (irAEs)"
+        ],
+        "symptom_and_toxicity_management": [
+          "Managing chemotherapy-induced nausea/vomiting (CINV), mucositis, and fatigue",
+          "Monitoring for oncologic emergencies: Febrile Neutropenia, Tumor Lysis Syndrome, Spinal Cord Compression",
+          "Infection prevention protocols in immunocompromised/neutropenic patients"
+        ],
+        "psychosocial_support": [
+          "Supporting patients through hair loss, body image changes, and treatment anxiety",
+          "Guiding families through complex treatment protocols and clinical trials"
+        ]
+      },
+      "education_and_career_in_india": {
+        "prerequisites": "B.Sc Nursing or GNM registered with State Nursing Council + 2 to 3 years clinical experience.",
+        "specialization_options": [
+          "Post Basic Diploma in Oncology Nursing (12-month program)",
+          "M.Sc Nursing in Medical Surgical - Oncology Nursing (2-year master's program)"
+        ],
+        "projected_cancer_burden": "Projected cases in India increased from 14.6 lakh (2022) to 15.7 lakh (2025), driving massive demand for specialized oncology nurses.",
+        "salary_in_india": "Reported average base pay: ~₹2,95,429 per annum (Coursera/Payscale Nov 2024 data)."
+      },
+      "certifications": [
+        {
+          "name": "Oncology Certified Nurse (OCN)",
+          "provider": "Oncology Nursing Certification Corporation (ONCC)",
+          "requirements": "RN license + 2,000 hours adult oncology practice within 4 years + 10 oncology continuing education hours."
+        },
+        {
+          "name": "Certified Breast Care Nurse (CBCN)",
+          "provider": "ONCC"
+        }
+      ],
+      "key_rag_takeaways": [
+        "Chemotherapy handling requires strict personal protective equipment (PPE) and closed-system transfer devices (CSTDs) due to mutagenic risks.",
+        "Febrile neutropenia is a medical emergency requiring rapid broad-spectrum antibiotics within 60 minutes.",
+        "Oncology nurses serve as the primary coordinators connecting medical, radiation, and surgical oncologists with the patient."
+      ]
+    },
+    {
+      "id": "palliative_care_nursing",
+      "name": "Palliative Care Nursing",
+      "domain": "Symptom Management & Quality of Life",
+      "overview": {
+        "definition": "Specialized care focused on relieving symptoms, reducing physical and emotional suffering, and optimizing quality of life for patients facing serious or chronic illness at any disease stage.",
+        "critical_distinction_palliative_vs_hospice": {
+          "palliative_care": "Can begin at any time, even from the day of diagnosis of a serious illness; provided concurrently alongside curative, life-prolonging treatments.",
+          "hospice_care": "A specialized subset of palliative care provided when curative treatments have stopped and the patient has a terminal prognosis (typically 6 months or less)."
+        },
+        "target_conditions": [
+          "Advanced Cancer",
+          "End-Stage Heart Failure (CHF)",
+          "Chronic Obstructive Pulmonary Disease (COPD)",
+          "Advanced Chronic Kidney Disease (ESKD)",
+          "Neurodegenerative diseases: ALS, Parkinson's, Alzheimer's and Dementia"
+        ]
+      },
+      "roles_and_responsibilities": {
+        "symptom_management": [
+          "Aggressive assessment and titration of medications for refractory pain, dyspnea, nausea, delirium, and fatigue",
+          "Applying non-pharmacological comfort measures (positioning, fan therapy for dyspnea, oral mouth care)"
+        ],
+        "goals_of_care_and_communication": [
+          "Facilitating structured goals-of-care conversations regarding what matters most to the patient",
+          "Explaining advance directives, Do-Not-Resuscitate (DNR) choices, and medical orders in understandable terms",
+          "Helping families navigate difficult transitions without feeling abandoned"
+        ],
+        "holistic_and_bereavement_support": [
+          "Recognizing caregiver fatigue and arranging respite care",
+          "Providing physical comfort, skin integrity care, and dignity-centered hygiene",
+          "Delivering bereavement support and grief counseling to surviving loved ones"
+        ]
+      },
+      "work_settings": [
+        "Hospital Palliative Consult Teams",
+        "Inpatient Hospice Facilities & Care Homes",
+        "Outpatient Palliative Clinics (predictable weekday schedules)",
+        "Home-Based Palliative Care Programs",
+        "Telehealth Palliative Services"
+      ],
+      "essential_competencies": [
+        "Advanced communication and active empathetic listening",
+        "Cultural competence and non-judgmental respect for diverse spiritual beliefs",
+        "High emotional resilience and boundary maintenance to prevent compassion fatigue"
+      ],
+      "key_rag_takeaways": [
+        "Palliative care is NOT synonymous with dying or giving up; it supports patients actively pursuing curative treatments.",
+        "Effective palliative symptom management has been shown to improve both quality of life and, in some studies, overall survival.",
+        "The central unit of care in palliative nursing is the patient and their family together."
+      ]
+    },
+    {
+      "id": "forensic_nursing",
+      "name": "Forensic Nursing",
+      "domain": "Medico-Legal & Healthcare Intersection",
+      "overview": {
+        "definition": "The application of nursing science and clinical practice to public, legal, and criminal justice proceedings, providing healthcare while collecting, documenting, and preserving legal evidence.",
+        "target_cases": [
+          "Sexual assault and interpersonal violence",
+          "Domestic violence, child abuse, and elder neglect",
+          "Human trafficking and physical exploitation",
+          "Suspicious deaths, homicides, suicides, and mass disasters",
+          "Correctional health and forensic psychiatric evaluations"
+        ]
+      },
+      "roles_and_responsibilities": {
+        "evidence_and_documentation": [
+          "Collecting biological specimens (DNA, swabbing, trace evidence) without contaminating evidence",
+          "Maintaining strict, legally binding Chain of Custody protocols",
+          "Photographing, mapping, and objectively documenting injuries and wound patterns without subjective bias"
+        ],
+        "trauma_informed_patient_care": [
+          "Prioritizing the physical and emotional safety of living victims above all else",
+          "Performing non-retraumatizing physical examinations and sensitive forensic interviews",
+          "Screening for drug-facilitated crimes and poisoning in collaboration with forensic toxicologists"
+        ],
+        "legal_collaboration": [
+          "Communicating findings to law enforcement, medical examiners, and child welfare agencies",
+          "Testifying as a professional expert witness in court trials"
+        ]
+      },
+      "forensic_nursing_in_india": {
+        "status": "An emerging, high-potential specialty addressing legislative updates and growing awareness of victim rights.",
+        "academic_breakthrough": "Re-introduced in 2023 via a formal 2-year M.Sc in Forensic Nursing at the National Forensic Sciences University (NFSU), Gandhinagar (under the Ministry of Home Affairs).",
+        "inc_integration": "Forensic nursing fundamentals integrated into the revised Indian Nursing Council (INC) B.Sc Nursing curriculum.",
+        "challenges": "Lack of standardized hospital protocols, social stigma, and limited dedicated forensic examination suites."
+      },
+      "certifications": [
+        {
+          "name": "Sexual Assault Nurse Examiner - Adult/Adolescent (SANE-A)",
+          "provider": "International Association of Forensic Nurses (IAFN)",
+          "requirements": "2+ years RN practice, 40-hour didactic SANE course, clinical preceptorship, and 300 hours SANE practice."
+        },
+        {
+          "name": "Sexual Assault Nurse Examiner - Pediatric (SANE-P)",
+          "provider": "IAFN",
+          "requirements": "3+ years RN practice, 40-hour pediatric SANE course, clinical preceptorship, and 300 hours practice."
+        }
+      ],
+      "work_settings": [
+        "Hospital Emergency Departments & Trauma Centers",
+        "Sexual Assault Response Teams (SART)",
+        "Medical Examiner & Coroner Offices",
+        "Correctional Facilities & Prisons",
+        "National Forensic Institutions & Legal Systems"
+      ],
+      "key_rag_takeaways": [
+        "Forensic nurses do not investigate crimes like police detectives; they treat patients while safeguarding evidence integrity.",
+        "Any lapse in chain of custody or improper specimen handling can invalidate crucial evidence in court.",
+        "NFSU Gandhinagar is the pioneering university offering formal M.Sc Forensic Nursing in India."
+      ]
+    },
+    {
+      "id": "operating_room_perioperative_nursing",
+      "name": "Operating Room (OR) / Perioperative Nursing",
+      "domain": "Surgical Services & Operating Theatres",
+      "overview": {
+        "definition": "Specialized registered nursing focused on safeguarding patient safety, sterile technique, and surgical coordination throughout the three phases of the surgical journey.",
+        "three_perioperative_phases": {
+          "preoperative": "Pre-surgical verification (correct patient, site, procedure), consent checking, baseline assessment, and patient education.",
+          "intraoperative": "Surgical safety checklists, strict aseptic field maintenance, specimen handling, and assisting the surgical team.",
+          "postoperative": "Safe handover to PACU / ICU, emergence monitoring, vital sign stability, and immediate complication detection."
+        }
+      },
+      "key_perioperative_roles": [
+        {
+          "role_name": "Circulating Nurse",
+          "sterile_status": "Non-sterile (works outside the sterile field)",
+          "key_duties": [
+            "Manages the overall OR environment, temperature, and equipment",
+            "Acts as the patient's primary advocate while patient is under anesthesia",
+            "Coordinates communication between OR and outside departments (lab, blood bank)",
+            "Conducts surgical counts alongside scrub nurse and documents surgical record"
+          ]
+        },
+        {
+          "role_name": "Scrub Nurse",
+          "sterile_status": "Sterile (scrubbed, gowned, and gloved within sterile field)",
+          "key_duties": [
+            "Sets up sterile tables, instruments, and drapes",
+            "Hands surgical instruments, sponges, and sutures to the surgeon",
+            "Performs rigorous baseline, intraoperative, and closing counts of sponges, needles, and instruments to prevent retained surgical items"
+          ]
+        },
+        {
+          "role_name": "RN First Assistant (RNFA)",
+          "sterile_status": "Sterile (advanced perioperative role)",
+          "key_duties": [
+            "Works directly under surgeon direction during the procedure",
+            "Provides surgical tissue exposure, retraction, hemostasis, and wound closure"
+          ]
+        },
+        {
+          "role_name": "PACU / Recovery Room Nurse",
+          "sterile_status": "Post-surgical recovery unit",
+          "key_duties": [
+            "Monitors patient emergence from general and regional anesthesia",
+            "Airway management, pain control, and early detection of postoperative hemorrhage"
+          ]
+        }
+      ],
+      "safety_and_quality_protocols": [
+        "WHO Surgical Safety Checklist (Sign-In, Time-Out, Sign-Out)",
+        "Strict Aseptic and Sterile Technique (surgical hand scrub, sterile draping)",
+        "Surgical Counts protocol to prevent retained foreign objects",
+        "Surgical specimen labeling and laboratory verification"
+      ],
+      "certifications": [
+        {
+          "name": "Certified Perioperative Nurse (CNOR)",
+          "provider": "Competency & Credentialing Institute (CCI)",
+          "requirements": "RN license + 2 years and 2,400 hours perioperative experience (with 1,200 hours intraoperative)."
+        },
+        {
+          "name": "Certified Surgical Services Manager (CSSM)",
+          "provider": "CCI"
+        }
+      ],
+      "work_settings": [
+        "Hospital Operating Theatres",
+        "Ambulatory & Outpatient Surgery Centers",
+        "Day Procedure Units & Endoscopy Suites",
+        "Specialty Surgical Suites (Cardiothoracic, Neurosurgical, Orthopedic, Transplant)"
+      ],
+      "key_rag_takeaways": [
+        "Circulating nurses are unscrubbed patient advocates; scrub nurses are scrubbed instrument managers.",
+        "Surgical 'Time-Out' is mandatory prior to skin incision to verify patient identity, consent, procedure, and site.",
+        "Perioperative nursing requires high technical familiarity with advanced surgical robotics and electrosurgical systems."
+      ]
+    },
+    {
+      "id": "nephrology_nursing",
+      "name": "Nephrology Nursing",
+      "domain": "Renal Medicine & Extracorporeal Therapies",
+      "overview": {
+        "definition": "Specialized nursing dedicated to the prevention, assessment, and holistic care of patients with kidney disease, renal failure, and those receiving renal replacement therapies across the lifespan.",
+        "historical_milestone": "Grew dramatically after 1973 when US Social Security legislation funded ESRD treatment (dialysis/transplant), establishing nephrology as a recognized clinical specialty.",
+        "holistic_nature": "Kidneys regulate fluid, electrolyte balance, blood pressure, and bone metabolism; nephrology nurses manage complex comorbidities (CVD, diabetes, hypertension, mineral bone disorder)."
+      },
+      "renal_replacement_modalities": [
+        {
+          "modality": "Hemodialysis (HD)",
+          "description": "Extracorporeal blood filtration via dialyzer, vascular access (AV fistula, graft, or central venous catheter); performed in-center or at home."
+        },
+        {
+          "modality": "Peritoneal Dialysis (PD)",
+          "description": "Instillation of dialysate into peritoneal cavity via Tenckhoff catheter; includes Continuous Ambulatory PD (CAPD) and Automated PD (APD)."
+        },
+        {
+          "modality": "Continuous Renal Replacement Therapy (CRRT)",
+          "description": "Continuous, gentle extracorporeal therapy used in hemodynamically unstable ICU patients with acute kidney injury (AKI)."
+        },
+        {
+          "modality": "Kidney Transplantation",
+          "description": "Pre-transplant evaluation, living donor coordination, post-transplant immunosuppression, and rejection surveillance."
+        },
+        {
+          "modality": "Conservative / Supportive Care",
+          "description": "Non-dialytic holistic symptom management for patients choosing not to pursue dialysis."
+        }
+      ],
+      "roles_and_responsibilities": {
+        "clinical_operations": [
+          "Initiating, monitoring, and terminating hemodialysis and peritoneal dialysis treatments",
+          "Managing vascular access: cannulating AV fistulas, assessing bruits and thrills, preventing access infections",
+          "Administering renal medications: phosphate binders, erythropoiesis-stimulating agents (ESAs), and active vitamin D"
+        ],
+        "complication_management": [
+          "Treating intradialytic hypotension, muscle cramps, and disequilibrium syndrome",
+          "Detecting early signs of peritonitis in peritoneal dialysis (cloudy effluent, abdominal pain)"
+        ],
+        "patient_education_and_empowerment": [
+          "Educating patients on strict renal fluid restrictions, potassium, phosphorus, and sodium dietary limits",
+          "Training patients and family partners for independent home hemodialysis and PD"
+        ]
+      },
+      "career_roles": [
+        "Staff Dialysis Nurse (In-Center / Acute Hospital)",
+        "Home Dialysis Training Coordinator",
+        "Vascular Access Coordinator / Manager",
+        "Kidney Transplant Coordinator / Organ Recovery Specialist",
+        "Nephrology Nurse Practitioner / Clinical Nurse Specialist"
+      ],
+      "certifications": [
+        {
+          "name": "Certified Nephrology Nurse (CNN)",
+          "provider": "Nephrology Nursing Certification Commission (NNCC)"
+        },
+        {
+          "name": "Certified Dialysis Nurse (CDN)",
+          "provider": "NNCC"
+        }
+      ],
+      "work_settings": [
+        "Outpatient Dialysis Clinics",
+        "Hospital Inpatient Dialysis Units & ICUs",
+        "Transplant Centers",
+        "Patient Homes (Home Dialysis Support)",
+        "Long-Term & Skilled Nursing Facilities"
+      ],
+      "key_rag_takeaways": [
+        "AV Fistula health is a lifeline: never take blood pressure or perform venipunctures on the access arm.",
+        "Not all kidney disease requires dialysis; conservative supportive care is a valid pathway tailored to patient preference.",
+        "Peritoneal dialysis effluent should normally be clear; cloudy fluid indicates peritonitis requiring urgent culture and antibiotic instillation."
+      ]
+    }
+  ]
+}
